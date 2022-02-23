@@ -86,7 +86,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="581e90fd-9bd4-405a-8384-3e6df76f6b39" InformativeScreenshot="3b695cab288abcb9aa12b1424166fb23" Selector="&lt;html app='chrome.exe' title='RPA | 총 133건의 검색결과 - 사람인' /&gt;&lt;webctrl aaname='40개씩' parentid='recruit_info' tag='BUTTON' type='button' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="581e90fd-9bd4-405a-8384-3e6df76f6b39" InformativeScreenshot="3b695cab288abcb9aa12b1424166fb23" Selector="&lt;html app='chrome.exe' title='RPA*' /&gt;&lt;webctrl aaname='40개씩' parentid='recruit_info' tag='BUTTON' type='button' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
@@ -108,7 +108,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2c978ac6-a1c0-4aea-9b8d-ea4c9cae62b2" InformativeScreenshot="d8ffb300cc5c3e3f61ab8eecf8aea018" Selector="&lt;html app='chrome.exe' title='RPA | 총 133건의 검색결과 - 사람인' /&gt;&lt;webctrl aaname='100개씩' parentid='recruit_info' tag='BUTTON' type='button' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2c978ac6-a1c0-4aea-9b8d-ea4c9cae62b2" InformativeScreenshot="d8ffb300cc5c3e3f61ab8eecf8aea018" Selector="&lt;html app='chrome.exe' title='RPA*' /&gt;&lt;webctrl aaname='100개씩' parentid='recruit_info' tag='BUTTON' type='button' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
