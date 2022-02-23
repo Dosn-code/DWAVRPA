@@ -5870,15 +5870,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dosn\\.nuget\\packages\\": {}
+    "C:\\Users\\82102\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "DWAVRPAProject",
       "projectName": "DWAVRPAProject",
-      "projectPath": "C:\\Users\\Dosn\\OneDrive\\문서\\UiPath\\DWAVRPAProject\\.local",
-      "packagesPath": "C:\\Users\\Dosn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dosn\\OneDrive\\문서\\UiPath\\DWAVRPAProject\\.local"
+      "projectPath": "D:\\RPA_20210928\\RPA project\\DWAVRPA\\DWAVRPAProject\\.local",
+      "packagesPath": "C:\\Users\\82102\\.nuget\\packages\\",
+      "outputPath": "D:\\RPA_20210928\\RPA project\\DWAVRPA\\DWAVRPAProject\\.local"
     },
     "frameworks": {
       "net461": {
@@ -5904,7 +5904,7 @@
             "version": "[21.10.5, 21.10.5]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Dosn\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\82102\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
