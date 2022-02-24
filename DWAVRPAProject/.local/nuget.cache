@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "dsJZ7oyYaiIpa4I5i6My7DdF857YSICspvMnF/G2IfMjwoiiz4jxVxlrUW1DzNzd7g0TUZnzMvxo8mkX1QoCAw==",
-  "success": true,
-  "projectFilePath": "C:\\RPA\\07_RPA\\workspace\\DWAVRPA\\DWAVRPA\\DWAVRPAProject\\.local\\",
-=======
   "dgSpecHash": "p6YMlNXveE+5Z/rQRNrJFc+Zy25S3yB4TlMU/pSIKOwlNGunbAJMKwSInijUNOp6sQNPJt0oHFlBkZxTAY6NPA==",
   "success": true,
   "projectFilePath": "D:\\RPA_20210928\\RPA project\\DWAVRPA\\DWAVRPAProject\\.local\\",
->>>>>>> d5e160dc2630ab2747eff90efc03fb21250fe67d
   "expectedPackageFiles": [
     "C:\\Users\\82102\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\82102\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
@@ -107,5 +101,13 @@
     "C:\\Users\\82102\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.5\\uipath.uiautomation.activities.21.10.5.nupkg.sha512",
     "C:\\Users\\82102\\.nuget\\packages\\uipath.vision\\3.1.4\\uipath.vision.3.1.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "D:\\RPA_20210928\\RPA project\\DWAVRPA\\DWAVRPAProject\\.local",
+      "message": "Problem reading the cache file D:\\RPA_20210928\\RPA project\\DWAVRPA\\DWAVRPAProject\\.local\\nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
