@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ffvHMXN8hXOxrijiLwNL0IIzWLQ7z3Fnu8VMLvDS/bNGZvxthlbNy4gJ5QOGyhRE4gcwJhbHUErRo/yekmGchQ==",
   "success": true,
   "projectFilePath": "C:\\RPA\\07_RPA\\workspace\\DWAVRPA\\DWAVRPA\\DWAVRPAProject\\.local\\",
+=======
+  "dgSpecHash": "p6YMlNXveE+5Z/rQRNrJFc+Zy25S3yB4TlMU/pSIKOwlNGunbAJMKwSInijUNOp6sQNPJt0oHFlBkZxTAY6NPA==",
+  "success": true,
+  "projectFilePath": "D:\\RPA_20210928\\RPA project\\DWAVRPA\\DWAVRPAProject\\.local\\",
+>>>>>>> 12c823b7bbc499409ac90c4821b1e6cf61f1790d
   "expectedPackageFiles": [
     "C:\\Users\\Dosn\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Dosn\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
@@ -106,8 +112,13 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "filePath": "C:\\RPA\\07_RPA\\workspace\\DWAVRPA\\DWAVRPA\\DWAVRPAProject\\.local",
       "message": "Problem reading the cache file C:\\RPA\\07_RPA\\workspace\\DWAVRPA\\DWAVRPA\\DWAVRPAProject\\.local\\nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
+      "filePath": "D:\\RPA_20210928\\RPA project\\DWAVRPA\\DWAVRPAProject\\.local",
+      "message": "Problem reading the cache file D:\\RPA_20210928\\RPA project\\DWAVRPA\\DWAVRPAProject\\.local\\nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> 12c823b7bbc499409ac90c4821b1e6cf61f1790d
     }
   ]
 }
