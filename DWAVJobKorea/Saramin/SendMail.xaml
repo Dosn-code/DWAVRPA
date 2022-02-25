@@ -5,11 +5,12 @@
     <x:Property Name="in_User_PW" Type="InArgument(ss:SecureString)" />
     <x:Property Name="in_User_ID" Type="InArgument(x:String)" />
     <x:Property Name="in_EmailBody" Type="InArgument(x:String)" />
+    <x:Property Name="in_Str_ResultExcelPath" Type="InArgument(x:String)" />
   </x:Members>
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1289,632</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1081,827</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SendMail_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -74,7 +75,6 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="SendMail" sap:VirtualizedContainerService.HintSize="376,341" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -84,10 +84,12 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[in_User_ID]" />
-    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Body="[in_EmailBody]" DisplayName="Send SMTP Mail Message" Email="[in_User_ID]" EnableSSL="True" From="[in_Dic_Config(&quot;From&quot;)]" sap:VirtualizedContainerService.HintSize="334,148" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="False" Password="[in_User_PW.ToString]" Port="465" SecureConnection="Auto" SecurePassword="[in_User_PW]" Server="smtp.naver.com" Subject="[in_keyword+in_Dic_Config(&quot;Title&quot;)]" To="[in_Dic_Config(&quot;To&quot;)]">
+    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Body="[in_EmailBody]" DisplayName="Send SMTP Mail Message" Email="[in_User_ID]" EnableSSL="True" From="[in_User_ID]" sap:VirtualizedContainerService.HintSize="334,148" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="False" Password="[in_User_PW.ToString]" Port="465" SecureConnection="Auto" SecurePassword="[in_User_PW]" Server="smtp.naver.com" Subject="[in_keyword+in_Dic_Config(&quot;Title&quot;)]" To="[in_User_ID]">
       <ui:SendMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-          <InArgument x:TypeArguments="x:String">[in_Dic_Config("RecruitExcelPath")+DateTime.Now.ToString("yyyyMMdd")+".xlsx"]</InArgument>
+          <InArgument x:TypeArguments="x:String">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Str_ResultExcelPath" />
+          </InArgument>
         </scg:List>
       </ui:SendMail.Files>
     </ui:SendMail>
