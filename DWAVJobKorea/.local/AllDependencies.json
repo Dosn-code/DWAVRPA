@@ -7742,9 +7742,9 @@
     "restore": {
       "projectUniqueName": "빈프로세스6",
       "projectName": "빈프로세스6",
-      "projectPath": "C:\\RPA\\07_RPA\\workspace\\DWAVJobKorea\\.local",
+      "projectPath": "C:\\RPA\\07_RPA\\workspace\\DWAVRPA\\DWAVRPA\\DWAVJobKorea\\.local",
       "packagesPath": "C:\\Users\\Dosn\\.nuget\\packages\\",
-      "outputPath": "C:\\RPA\\07_RPA\\workspace\\DWAVJobKorea\\.local"
+      "outputPath": "C:\\RPA\\07_RPA\\workspace\\DWAVRPA\\DWAVRPA\\DWAVJobKorea\\.local"
     },
     "frameworks": {
       "net461": {
