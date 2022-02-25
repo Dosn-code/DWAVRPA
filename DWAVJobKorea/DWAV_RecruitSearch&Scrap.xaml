@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1289,1714</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1081,1714</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>DWAV_Search_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="33">
@@ -165,7 +165,7 @@
         </ui:BrowserScope.Body>
       </ui:BrowserScope>
     </Sequence>
-    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'RPA       Chrome_wi'" sap:VirtualizedContainerService.HintSize="476,344" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="7f4fec42391af2a924446fcf785a4df0" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='RPA - 통합검색 | 잡코리아 - Chrome' /&gt;">
+    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'RPA       Chrome_wi'" sap:VirtualizedContainerService.HintSize="476,344" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="7f4fec42391af2a924446fcf785a4df0" Selector="[String.Format(&quot;&lt;html app='chrome.exe' title='{0} - 통합검색 | 잡코리아' /&gt;&quot;, in_Keyword)]">
       <ui:WindowScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -182,7 +182,7 @@
                 <ui:CursorPosition OffsetX="32" OffsetY="9" Position="TopLeft" />
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="aca246bd-5c7f-41e5-abc1-6b510f6a336d" InformativeScreenshot="199e65f84caa24f664e85a71b2d68462" Selector="&lt;ctrl name='RPA - 통합검색 | 잡코리아 - Chrome' role='pane' /&gt;&lt;ctrl name='Chrome' role='pane' /&gt;&lt;ctrl name='닫기' role='push button' /&gt;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="aca246bd-5c7f-41e5-abc1-6b510f6a336d" InformativeScreenshot="199e65f84caa24f664e85a71b2d68462" Selector="[String.Format(&quot;&lt;ctrl name='{0}* | 잡코리아 - Chrome' role='pane' /&gt;&lt;ctrl name='Chrome' role='pane' /&gt;&lt;ctrl name='닫기' role='push button' /&gt;&quot;, in_Keyword)]">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
