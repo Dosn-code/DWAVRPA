@@ -119,7 +119,7 @@
             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence sap:VirtualizedContainerService.HintSize="434,652" sap2010:WorkflowViewState.IdRef="Sequence_6">
+        <Sequence sap:VirtualizedContainerService.HintSize="438,652" sap2010:WorkflowViewState.IdRef="Sequence_6">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -176,9 +176,9 @@
             </Assign.Value>
           </Assign>
         </Sequence>
-        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="434,183" sap2010:WorkflowViewState.IdRef="TryCatch_10">
+        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,339" sap2010:WorkflowViewState.IdRef="TryCatch_10">
           <TryCatch.Try>
-            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke DWAV_ReadConfig workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="DWAV_ReadConfig.xaml">
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke DWAV_ReadConfig workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Common\DWAV_ReadConfig.xaml">
               <ui:InvokeWorkflowFile.Arguments>
                 <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="out_Dic_Config">[Dic_Config]</OutArgument>
                 <InArgument x:TypeArguments="x:String" x:Key="in_Str_ConfigPath">[Str_ConfigPath]</InArgument>
@@ -196,7 +196,7 @@
             </ui:InvokeWorkflowFile>
           </TryCatch.Try>
           <TryCatch.Catches>
-            <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,21" sap2010:WorkflowViewState.IdRef="Catch`1_10">
+            <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_10">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -207,7 +207,7 @@
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                 </ActivityAction.Argument>
-                <Sequence sap:VirtualizedContainerService.HintSize="304,249" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                <Sequence sap:VirtualizedContainerService.HintSize="304,252" sap2010:WorkflowViewState.IdRef="Sequence_31">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -301,7 +301,7 @@
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step 1. Login" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_32" UnSafe="False" WorkflowFileName="DWAV_JKoreaLogin.xaml">
+                              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step 1. Login" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_32" UnSafe="False" WorkflowFileName="JobKorea\DWAV_JKoreaLogin.xaml">
                                 <ui:InvokeWorkflowFile.Arguments>
                                   <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="in_Dic_Config">[Dic_Config]</InArgument>
                                   <InArgument x:TypeArguments="x:String" x:Key="in_Str_NormalID">[Str_JKNormalID]</InArgument>
@@ -310,7 +310,7 @@
                                   <InArgument x:TypeArguments="ss:SecureString" x:Key="in_SecStr_SocialPWD">[SecStr_SocialPWD]</InArgument>
                                 </ui:InvokeWorkflowFile.Arguments>
                               </ui:InvokeWorkflowFile>
-                              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step 2. Search &amp; Scrapping" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_33" UnSafe="False" WorkflowFileName="DWAV_RecruitSearch&amp;Scrap.xaml">
+                              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step 2. Search &amp; Scrapping" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_33" UnSafe="False" WorkflowFileName="Common\DWAV_RecruitSearch&amp;Scrap.xaml">
                                 <ui:InvokeWorkflowFile.Arguments>
                                   <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="in_Dic_Config">[Dic_Config]</InArgument>
                                   <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_DT_RecruitList">[DT_JKRecruitList]</OutArgument>
@@ -458,7 +458,7 @@
                                 </sap:WorkflowViewStateService.ViewState>
                                 <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,339" sap2010:WorkflowViewState.IdRef="TryCatch_3">
                                   <TryCatch.Try>
-                                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step 1. Login" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_18" UnSafe="False" WorkflowFileName="DWAV_JPlanetLogin.xaml">
+                                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step 1. Login" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_18" UnSafe="False" WorkflowFileName="JobKorea\DWAV_JPlanetLogin.xaml">
                                       <ui:InvokeWorkflowFile.Arguments>
                                         <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="in_Dic_Config">[Dic_Config]</InArgument>
                                         <InArgument x:TypeArguments="x:String" x:Key="in_Str_SocialID">[Str_SocialID]</InArgument>
@@ -515,13 +515,13 @@
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Corp Search &amp; Scrap" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_23" UnSafe="False" WorkflowFileName="DWAV_CorpSearch.xaml">
+                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Corp Search &amp; Scrap" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_23" UnSafe="False" WorkflowFileName="Common\DWAV_CorpSearch.xaml">
                                         <ui:InvokeWorkflowFile.Arguments>
                                           <InArgument x:TypeArguments="sd:DataTable" x:Key="in_DT_RecruitList">[DT_JKRecruitList]</InArgument>
                                           <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_DT_CorpScoreList">[DT_JKCorpScoreList]</OutArgument>
                                         </ui:InvokeWorkflowFile.Arguments>
                                       </ui:InvokeWorkflowFile>
-                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Merge DataTable" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_24" UnSafe="False" WorkflowFileName="DWAV_Recruit&amp;ScoreDTMerge.xaml">
+                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Merge DataTable" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_24" UnSafe="False" WorkflowFileName="Common\DWAV_Recruit&amp;ScoreDTMerge.xaml">
                                         <ui:InvokeWorkflowFile.Arguments>
                                           <InArgument x:TypeArguments="sd:DataTable" x:Key="in_DT_RecruitList">[DT_JKRecruitList]</InArgument>
                                           <InArgument x:TypeArguments="sd:DataTable" x:Key="in_DT_CorpScoreList">[DT_JKCorpScoreList]</InArgument>
@@ -577,13 +577,13 @@
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step 2. SearchCorpScore" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_29" UnSafe="False" WorkflowFileName="DWAV_CorpSearch.xaml">
+                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step 2. SearchCorpScore" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_29" UnSafe="False" WorkflowFileName="Common\DWAV_CorpSearch.xaml">
                                         <ui:InvokeWorkflowFile.Arguments>
                                           <InArgument x:TypeArguments="sd:DataTable" x:Key="in_DT_RecruitList">[DT_SaraminSearch]</InArgument>
                                           <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_DT_CorpScoreList">[DT_SaraminCorpScoreList]</OutArgument>
                                         </ui:InvokeWorkflowFile.Arguments>
                                       </ui:InvokeWorkflowFile>
-                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step 3. MergeDT" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_30" UnSafe="False" WorkflowFileName="DWAV_Recruit&amp;ScoreDTMerge.xaml">
+                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step 3. MergeDT" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_30" UnSafe="False" WorkflowFileName="Common\DWAV_Recruit&amp;ScoreDTMerge.xaml">
                                         <ui:InvokeWorkflowFile.Arguments>
                                           <InArgument x:TypeArguments="sd:DataTable" x:Key="in_DT_RecruitList">[DT_SaraminSearch]</InArgument>
                                           <InArgument x:TypeArguments="sd:DataTable" x:Key="in_DT_CorpScoreList">[DT_SaraminCorpScoreList]</InArgument>
@@ -633,26 +633,14 @@
                                 </TryCatch>
                                 <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,339" sap2010:WorkflowViewState.IdRef="TryCatch_6">
                                   <TryCatch.Try>
-                                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step4. Make Final Recruit Excel" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_21" UnSafe="False" WorkflowFileName="DWAV_MakeRecruitExcel.xaml">
+                                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Step4. Make Final Recruit Excel" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_21" UnSafe="False" WorkflowFileName="Common\DWAV_MakeRecruitExcel.xaml">
                                       <ui:InvokeWorkflowFile.Arguments>
-                                        <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="in_Dic_Config">
-                                          <mva:VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:String)" ExpressionText="Dic_Config" />
-                                        </InArgument>
-                                        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_DT_SaraminResult">
-                                          <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="DT_SaraminResult" />
-                                        </InArgument>
-                                        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_DT_JKResult">
-                                          <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="DT_JKResult" />
-                                        </InArgument>
-                                        <InArgument x:TypeArguments="s:String[]" x:Key="Arr_Sheet">
-                                          <mva:VisualBasicValue x:TypeArguments="s:String[]" ExpressionText="Arr_Sheet" />
-                                        </InArgument>
-                                        <InArgument x:TypeArguments="x:String" x:Key="in_Keyword">
-                                          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="Keyword" />
-                                        </InArgument>
-                                        <OutArgument x:TypeArguments="x:String" x:Key="out_Str_ResultExcelPath">
-                                          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="Str_ResultExcelPath" />
-                                        </OutArgument>
+                                        <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="in_Dic_Config">[Dic_Config]</InArgument>
+                                        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_DT_SaraminResult">[DT_SaraminResult]</InArgument>
+                                        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_DT_JKResult">[DT_JKResult]</InArgument>
+                                        <InArgument x:TypeArguments="s:String[]" x:Key="Arr_Sheet">[Arr_Sheet]</InArgument>
+                                        <InArgument x:TypeArguments="x:String" x:Key="in_Keyword">[Keyword]</InArgument>
+                                        <OutArgument x:TypeArguments="x:String" x:Key="out_Str_ResultExcelPath">[Str_ResultExcelPath]</OutArgument>
                                       </ui:InvokeWorkflowFile.Arguments>
                                     </ui:InvokeWorkflowFile>
                                   </TryCatch.Try>
@@ -726,24 +714,12 @@
                                           <TryCatch.Try>
                                             <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke SendMail workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_17" UnSafe="False" WorkflowFileName="Saramin\SendMail.xaml">
                                               <ui:InvokeWorkflowFile.Arguments>
-                                                <InArgument x:TypeArguments="x:String" x:Key="in_keyword">
-                                                  <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="Keyword" />
-                                                </InArgument>
-                                                <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="in_Dic_Config">
-                                                  <mva:VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:String)" ExpressionText="Dic_Config" />
-                                                </InArgument>
-                                                <InArgument x:TypeArguments="ss:SecureString" x:Key="in_User_PW">
-                                                  <mva:VisualBasicValue x:TypeArguments="ss:SecureString" ExpressionText="User_PW" />
-                                                </InArgument>
-                                                <InArgument x:TypeArguments="x:String" x:Key="in_User_ID">
-                                                  <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="User_ID" />
-                                                </InArgument>
-                                                <InArgument x:TypeArguments="x:String" x:Key="in_EmailBody">
-                                                  <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="Dic_Config(&quot;Body&quot;)" />
-                                                </InArgument>
-                                                <InArgument x:TypeArguments="x:String" x:Key="in_Str_ResultExcelPath">
-                                                  <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="Str_ResultExcelPath" />
-                                                </InArgument>
+                                                <InArgument x:TypeArguments="x:String" x:Key="in_keyword">[Keyword]</InArgument>
+                                                <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="in_Dic_Config">[Dic_Config]</InArgument>
+                                                <InArgument x:TypeArguments="ss:SecureString" x:Key="in_User_PW">[User_PW]</InArgument>
+                                                <InArgument x:TypeArguments="x:String" x:Key="in_User_ID">[User_ID]</InArgument>
+                                                <InArgument x:TypeArguments="x:String" x:Key="in_EmailBody">[Dic_Config("Body")]</InArgument>
+                                                <InArgument x:TypeArguments="x:String" x:Key="in_Str_ResultExcelPath">[Str_ResultExcelPath]</InArgument>
                                               </ui:InvokeWorkflowFile.Arguments>
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -764,7 +740,7 @@
                                                 <ActivityAction.Argument>
                                                   <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                                 </ActivityAction.Argument>
-                                                <Sequence sap:VirtualizedContainerService.HintSize="304,249" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                                <Sequence sap:VirtualizedContainerService.HintSize="304,246" sap2010:WorkflowViewState.IdRef="Sequence_30">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -829,7 +805,7 @@
                                                     </ui:CursorPosition>
                                                   </ui:Click.CursorPosition>
                                                   <ui:Click.Target>
-                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1ad6597b-b963-4d31-a3e4-9ba39c6124ab" InformativeScreenshot="fbef918239a405ceaf9e83bd8732057a" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='* | 잡플래닛 - Chrome' /&gt;&lt;ctrl name='* | 잡플래닛 - Chrome' role='pane' /&gt;&lt;ctrl name='Chrome' role='pane' /&gt;&lt;ctrl name='닫기' role='push button' /&gt;">
+                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1ad6597b-b963-4d31-a3e4-9ba39c6124ab" InformativeScreenshot="fbef918239a405ceaf9e83bd8732057a" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='* | 잡플래닛* - Chrome' /&gt;&lt;ctrl name='* | 잡플래닛* - Chrome' role='pane' /&gt;&lt;ctrl name='Chrome' role='pane' /&gt;&lt;ctrl name='닫기' role='push button' /&gt;">
                                                       <ui:Target.TimeoutMS>
                                                         <InArgument x:TypeArguments="x:Int32" />
                                                       </ui:Target.TimeoutMS>
@@ -859,11 +835,24 @@
                                                 </sap:WorkflowViewStateService.ViewState>
                                                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke SendMail workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_31" UnSafe="False" WorkflowFileName="Saramin\SendMail.xaml">
                                                   <ui:InvokeWorkflowFile.Arguments>
-                                                    <InArgument x:TypeArguments="x:String" x:Key="in_keyword">[Keyword]</InArgument>
-                                                    <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="in_Dic_Config">[Dic_Config]</InArgument>
-                                                    <InArgument x:TypeArguments="ss:SecureString" x:Key="in_User_PW">[User_PW]</InArgument>
-                                                    <InArgument x:TypeArguments="x:String" x:Key="in_User_ID">[User_ID]</InArgument>
-                                                    <InArgument x:TypeArguments="x:String" x:Key="in_EmailBody">[Dic_Config("ErrorMessage")]</InArgument>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="in_keyword">
+                                                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="Keyword" />
+                                                    </InArgument>
+                                                    <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="in_Dic_Config">
+                                                      <mva:VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:String)" ExpressionText="Dic_Config" />
+                                                    </InArgument>
+                                                    <InArgument x:TypeArguments="ss:SecureString" x:Key="in_User_PW">
+                                                      <mva:VisualBasicValue x:TypeArguments="ss:SecureString" ExpressionText="User_PW" />
+                                                    </InArgument>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="in_User_ID">
+                                                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="User_ID" />
+                                                    </InArgument>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="in_EmailBody">
+                                                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="Dic_Config(&quot;ErrorMessage&quot;)" />
+                                                    </InArgument>
+                                                    <InArgument x:TypeArguments="x:String" x:Key="in_Str_ResultExcelPath">
+                                                      <Literal x:TypeArguments="x:String" Value="" />
+                                                    </InArgument>
                                                   </ui:InvokeWorkflowFile.Arguments>
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
