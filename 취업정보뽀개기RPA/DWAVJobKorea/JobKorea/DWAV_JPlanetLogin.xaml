@@ -220,7 +220,7 @@
                           </ui:Click.Target>
                         </ui:Click>
                         <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="434,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe  잡플래닛'" sap:VirtualizedContainerService.HintSize="434,205" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="1653652480b54656e69172b22cf86029" Selector="&lt;html app='chrome.exe' title='*잡플래닛' /&gt;">
+                        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe  잡플래닛'" sap:VirtualizedContainerService.HintSize="434,205" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="1653652480b54656e69172b22cf86029" Selector="&lt;html app='chrome.exe' title='*잡플래닛' /&gt;" TimeoutMS="5000">
                           <ui:BrowserScope.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
@@ -270,10 +270,7 @@
                                 </ui:CursorPosition>
                               </ui:Click.CursorPosition>
                               <ui:Click.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a7017535-1654-4452-8faa-2ebb7418f1d3" InformativeScreenshot="cdcdf66184589580103e40cbe63da87f" Selector="&lt;html app='chrome.exe' title='로그인 | 잡플래닛' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;">
-                                  <ui:Target.TimeoutMS>
-                                    <InArgument x:TypeArguments="x:Int32" />
-                                  </ui:Target.TimeoutMS>
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a7017535-1654-4452-8faa-2ebb7418f1d3" InformativeScreenshot="cdcdf66184589580103e40cbe63da87f" Selector="&lt;html app='chrome.exe' title='로그인 | 잡플래닛' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;" TimeoutMS="5000">
                                   <ui:Target.WaitForReady>
                                     <InArgument x:TypeArguments="ui:WaitForReady" />
                                   </ui:Target.WaitForReady>
@@ -282,10 +279,7 @@
                             </ui:Click>
                             <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey 'INPUT  user_email'" sap:VirtualizedContainerService.HintSize="484,142" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="a" KeyModifiers="Ctrl">
                               <ui:SendHotkey.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0bdf9f4e-fee4-4bec-b9aa-e32ed1309d80" InformativeScreenshot="51607a36ab33f32cdaa3a3273c85b3f9" Selector="&lt;html app='chrome.exe' title='로그인 | 잡플래닛' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;">
-                                  <ui:Target.TimeoutMS>
-                                    <InArgument x:TypeArguments="x:Int32" />
-                                  </ui:Target.TimeoutMS>
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0bdf9f4e-fee4-4bec-b9aa-e32ed1309d80" InformativeScreenshot="51607a36ab33f32cdaa3a3273c85b3f9" Selector="&lt;html app='chrome.exe' title='로그인 | 잡플래닛' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;" TimeoutMS="5000">
                                   <ui:Target.WaitForReady>
                                     <InArgument x:TypeArguments="ui:WaitForReady" />
                                   </ui:Target.WaitForReady>
@@ -301,12 +295,9 @@
                                 </ui:Target>
                               </ui:TypeInto.Target>
                             </ui:TypeInto>
-                            <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'INPUT  user_email'" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="GetValue_2">
+                            <ui:GetValue ContinueOnError="True" DisplayName="Get Text 'INPUT  user_email'" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="GetValue_2">
                               <ui:GetValue.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="25828a3c-a19e-4718-b163-a5b6b4047ed2" InformativeScreenshot="89ea6e5fd1db1d69663c0569d13b44de" Selector="&lt;html app='chrome.exe' title='로그인 | 잡플래닛' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;">
-                                  <ui:Target.TimeoutMS>
-                                    <InArgument x:TypeArguments="x:Int32" />
-                                  </ui:Target.TimeoutMS>
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="25828a3c-a19e-4718-b163-a5b6b4047ed2" InformativeScreenshot="89ea6e5fd1db1d69663c0569d13b44de" Selector="&lt;html app='chrome.exe' title='로그인 | 잡플래닛' /&gt;&lt;webctrl tag='INPUT' type='email' /&gt;" TimeoutMS="5000">
                                   <ui:Target.WaitForReady>
                                     <InArgument x:TypeArguments="ui:WaitForReady" />
                                   </ui:Target.WaitForReady>
@@ -368,10 +359,7 @@
                                 </ui:CursorPosition>
                               </ui:Click.CursorPosition>
                               <ui:Click.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a7017535-1654-4452-8faa-2ebb7418f1d3" InformativeScreenshot="1347b9cb6af4347a98cf652a3e9b784c" Selector="&lt;html app='chrome.exe' title='로그인 | 잡플래닛' /&gt;&lt;webctrl tag='INPUT' type='password' /&gt;">
-                                  <ui:Target.TimeoutMS>
-                                    <InArgument x:TypeArguments="x:Int32" />
-                                  </ui:Target.TimeoutMS>
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a7017535-1654-4452-8faa-2ebb7418f1d3" InformativeScreenshot="1347b9cb6af4347a98cf652a3e9b784c" Selector="&lt;html app='chrome.exe' title='로그인 | 잡플래닛' /&gt;&lt;webctrl tag='INPUT' type='password' /&gt;" TimeoutMS="5000">
                                   <ui:Target.WaitForReady>
                                     <InArgument x:TypeArguments="ui:WaitForReady" />
                                   </ui:Target.WaitForReady>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JWOeV0qsq66AgQVd8SL1jvjRZfOmsft0ukyHE9yK10xPKYfvwtoLwh+nipTMOpYm6hlv5QmHg3V6PiY2PD1IgA==",
+  "dgSpecHash": "LpJXpHvRQswj4EqwA3iZGyJ80S/Gx0/Ykg8beuG6HDWL6vFJJ9joPxOaMJs5c/PXq0cZm3bKbESlnDfv/24+IA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dosn\\OneDrive\\바탕 화면\\새 폴더\\DWAVJobKorea02272158\\DWAVJobKorea\\.local\\",
+  "projectFilePath": "C:\\Users\\Dosn\\OneDrive\\바탕 화면\\새 폴더\\취업정보뽀개기RPA\\DWAVJobKorea\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Dosn\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\Dosn\\.nuget\\packages\\credentialmanagement\\1.0.2\\credentialmanagement.1.0.2.nupkg.sha512",
