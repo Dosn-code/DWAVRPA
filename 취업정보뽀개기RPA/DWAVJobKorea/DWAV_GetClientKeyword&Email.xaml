@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1081,7350</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>997,7350</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>DWAV_ConstructClientDictionary_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="30">
@@ -229,7 +229,7 @@
                       </ui:Click.Target>
                     </ui:Click>
                     <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="811,22" sap2010:WorkflowViewState.IdRef="Delay_4" />
-                    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe 김도형'" sap:VirtualizedContainerService.HintSize="811,1052" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="f11ee12b56d7e9f6fc96d2c54794fe67" Selector="[String.Format(&quot;&lt;html app='chrome.exe' htmlwindowname='/_FSarb/chats/*' title='{0} - {1} - 채널 관리자 센터' /&gt;&quot;, Name, ChannelName)]">
+                    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe 김도형'" sap:VirtualizedContainerService.HintSize="811,1052" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="f11ee12b56d7e9f6fc96d2c54794fe67" Selector="[String.Format(&quot;&lt;html app='chrome.exe' htmlwindowname='/*/chats/*' title='{0} - {1} - 채널 관리자 센터' /&gt;&quot;, Name, ChannelName)]">
                       <ui:BrowserScope.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
@@ -256,7 +256,7 @@
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser '    DWAV  Page'" sap:VirtualizedContainerService.HintSize="434,506" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="ed785f2282596dc0e3aba4860c5b2de4" Selector="[String.Format(&quot;&lt;html app='chrome.exe' htmlwindowname='/_FSarb/chats/*' title='{0} - DWAV - 채널 관리자 센터' /&gt;&quot;, Name)]" TimeoutMS="5000">
+                              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser '    DWAV  Page'" sap:VirtualizedContainerService.HintSize="434,506" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="ed785f2282596dc0e3aba4860c5b2de4" Selector="[String.Format(&quot;&lt;html app='chrome.exe' htmlwindowname='/*/chats/*' title='{0} - {1} - 채널 관리자 센터' /&gt;&quot;, Name, ChannelName)]" TimeoutMS="5000">
                                 <ui:BrowserScope.Body>
                                   <ActivityAction x:TypeArguments="x:Object">
                                     <ActivityAction.Argument>
@@ -330,7 +330,7 @@
                                     <InArgument x:TypeArguments="sd:DataTable">[new DataTable]</InArgument>
                                   </Assign.Value>
                                 </Assign>
-                                <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser '    DWAV  Page'" sap:VirtualizedContainerService.HintSize="655,610" sap2010:WorkflowViewState.IdRef="BrowserScope_8" InformativeScreenshot="2419019d43d8140461b1fe5667b96f58" Selector="[String.Format(&quot;&lt;html app='chrome.exe' htmlwindowname='/_FSarb/chats/*' title='{0} - {1} - 채널 관리자 센터' /&gt;&quot;, Name, ChannelName)]">
+                                <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser '    DWAV  Page'" sap:VirtualizedContainerService.HintSize="655,610" sap2010:WorkflowViewState.IdRef="BrowserScope_8" InformativeScreenshot="2419019d43d8140461b1fe5667b96f58" Selector="[String.Format(&quot;&lt;html app='chrome.exe' htmlwindowname='/*/chats/*' title='{0} - {1} - 채널 관리자 센터' /&gt;&quot;, Name, ChannelName)]">
                                   <ui:BrowserScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
